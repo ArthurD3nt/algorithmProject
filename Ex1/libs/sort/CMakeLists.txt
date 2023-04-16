@@ -1,0 +1,7 @@
+project(sort)
+
+# C standard => C99
+set(CMAKE_C_STANDARD 99)
+
+# Sort library
+add_library(sort sort.c)
